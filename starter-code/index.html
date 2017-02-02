@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-	
-  <head>
-    <title>Memory Game</title>
-  </head>
-  
+<html>
+<head>
+  <title>Memory Card Game</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<!--Nav for game board.-->
     <nav class="clearfix">
       <a href="#">Instructions</a>
       <a href="#">Game</a>
     </nav>
-    
-    <body>
-    	<h1>Memory Game</h1>
-    	<h2>Instructions</h2>
-    	<p>
-    		Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are         flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
-    	</p>
-    	
-    	<div class="board">
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-  	</div>
+
   
-  	<footer>
-  		Created with &hearts; by <span class="name">GA</span>
-	</footer>
+  
+  <hr>
 
-     </body>
+  <!--Instructions and general info text about the game and author.-->
+  <h1>Memory Card Game</h1>
+
+  <h2>Instructions</h2>
+
+  <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
+  </p>
+  
+  <hr>
+
+  <h4>This is a great game that I learned as a kid and it's still fun to play today! It's also a great way to practice your short-term memory too.
+  </h4>
+
+  <p>To learn more about the author, please visit the Facebook link <a href="https://www.facebook.com/">here!</a>
+  </p>
 
 
+
+
+<!-- Create id and class for game board. Javascript is creating the cards-->
+  <div id="game-board" class="board">
+  
+<!-- 
+    <div class="cards"></div>
+    <div class="cards"></div>
+    <div class="cards"></div>
+    <div class="cards"></div>
+ -->
+  </div>
+  
+
+
+
+  
+  <footer>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <span>GA</span> &copy 2017</footer>
+ <script src="main.js"></script>
+</body>
 </html>

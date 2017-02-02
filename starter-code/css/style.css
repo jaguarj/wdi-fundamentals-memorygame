@@ -1,0 +1,73 @@
+body {
+	text-align: center;
+	
+}
+
+nav {
+	background: #808080;
+}
+
+nav a {
+	background: #ffbf00;
+	color: white;
+	padding: 35px;
+	float: left;
+	display: block;
+}
+
+nav a:hover {
+	background: #ee5f3c;
+	
+}
+
+.clearfix:after {
+	visibility: hidden;
+	content: " ";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+
+
+}
+
+.card {
+	float:left;
+	margin: 8%;
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	background: #FFC73E;
+	border-radius: 10px;
+}
+
+h1 {
+	color: teal;
+}
+
+h2 {
+	color:gold;
+}
+
+footer {
+	background: #808080;
+}
+
+span {
+	color: #ff0000;
+	font-style: oblique;
+}
+
+.fa {
+	color: rgba(255, 134, 24, .5);
+}
+/* This is a multi-line
+comment. Add your CSS code
+from Unit 1 - 5 below  */
