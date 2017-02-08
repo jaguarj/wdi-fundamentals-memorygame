@@ -1,22 +1,40 @@
+html {
+	box-shadow: inset 0 0 100px #000;
+}
+
+* {
+	text-transform: uppercase;
+}
+
 body {
 	text-align: center;
+	background: url("../images/aqua_bg.png");
+	background-size: cover;
 	
+
 }
 
 nav {
+	/* 
+
 	background: #808080;
+
+	*/
 }
 
 nav a {
-	background: #ffbf00;
+	background: rgba(255,255,255, .05);
 	color: white;
 	padding: 35px;
 	float: left;
 	display: block;
+	box-shadow: inset 0 0 20px #3ccbee;
+
 }
 
 nav a:hover {
-	background: #ee5f3c;
+	background: rgba(255,255,255, .30);
+	box-shadow: inset 0 0 20px #3ccbee;
 	
 }
 
@@ -34,39 +52,129 @@ nav a:hover {
 	width: 50%;
 	display: inline-block;
 	text-align: center;
+	
 
 
 }
 
 .card {
 	float:left;
+
+	/*
+	margin-top: 10%;
+	margin-left: 15%;
+	*/
+
+	/*
 	margin: 8%;
+	*/
+	margin-top: 1em;
+	margin-left:18%;
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
 	background: #FFC73E;
 	border-radius: 10px;
+	box-shadow: 0 0 30px #666;
+	text-align: center;
+}
+h1, h2, h4, p, a, span, footer {
+	font-family: Arial, sans-serif;
+}
+
+.border1 {
+	margin-left: 2%;
+	margin-top:10px;
+}
+
+.border2 {
+	margin-top:10px;
+}
+
+a.border1 {
+	border-radius: 100px 0 0 100px;
+	letter-spacing: .15em;
+	color:#FFC73E
+
+	
+}
+a.border2 {
+	border-radius: 0 100px 100px 0;
+	letter-spacing: .15em;
+	color:#FFC73E
+	
+
+}
+
+a {
+	text-decoration: none;
+
+	
 }
 
 h1 {
 	color: teal;
+	text-shadow: 2px 2px 1px #fff;
+	/*
+	letter-spacing: 1px;
+	*/
+	letter-spacing: .15em;
+	
 }
 
 h2 {
-	color:gold;
+	color: #ffbf00;
+	letter-spacing: .2em;
+	text-shadow: 1px 1px 3px #000;
+	
+}
+
+h4 {
+	letter-spacing: .15em;
+
+}
+
+p {
+	padding:1.5em;
+	word-spacing: .2em;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 0px #fff;
 }
 
 footer {
-	background: #808080;
+	margin-top: 2em;
+	padding-top: 1em;
+	text-align: center;
+	letter-spacing: .07em;
+	background: rgba(255,255,255, .03);
+	border-radius: 10px 10px;
+	height:2em;
+}
+
+a#footer {
+	letter-spacing: .02em;
+	text-decoration: none;
+	color:#ff8f00;
+
+}
+
+a#footer:hover {
+	color:#FFC73E;
+	
+	
+
 }
 
 span {
-	color: #ff0000;
+	color: #ffbf00;
 	font-style: oblique;
+	text-shadow: 1px 1px 3px #000;
+
 }
 
 .fa {
-	color: rgba(255, 134, 24, .5);
+	color: #ffbf00;
 }
 /* This is a multi-line
 comment. Add your CSS code
