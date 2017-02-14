@@ -1,5 +1,7 @@
 html {
 	box-shadow: inset 0 0 100px #000;
+	background: url("../images/aqua_bg.png") no-repeat center center fixed;
+
 }
 
 * {
@@ -8,8 +10,9 @@ html {
 
 body {
 	text-align: center;
-	background: url("../images/aqua_bg.png");
-	background-size: cover;
+
+	
+
 	
 
 }
@@ -29,6 +32,7 @@ nav a {
 	float: left;
 	display: block;
 	box-shadow: inset 0 0 20px #3ccbee;
+	
 
 }
 
@@ -52,14 +56,13 @@ nav a:hover {
 	width: 50%;
 	display: inline-block;
 	text-align: center;
+
 	
 
 
 }
 
 .card {
-	float:left;
-
 	/*
 	margin-top: 10%;
 	margin-left: 15%;
@@ -68,6 +71,7 @@ nav a:hover {
 	/*
 	margin: 8%;
 	*/
+	float:left;
 	margin-top: 1em;
 	margin-left:18%;
 	height: 200px;
@@ -78,6 +82,13 @@ nav a:hover {
 	box-shadow: 0 0 30px #666;
 	text-align: center;
 }
+
+img {
+	height: 200px;
+	width: 150px;
+	border-radius: 100px;
+}
+
 h1, h2, h4, p, a, span, footer {
 	font-family: Arial, sans-serif;
 }
@@ -85,6 +96,7 @@ h1, h2, h4, p, a, span, footer {
 .border1 {
 	margin-left: 2%;
 	margin-top:10px;
+
 }
 
 .border2 {
@@ -94,14 +106,15 @@ h1, h2, h4, p, a, span, footer {
 a.border1 {
 	border-radius: 100px 0 0 100px;
 	letter-spacing: .15em;
-	color:#FFC73E
+	color:#FFC73E;
+
 
 	
 }
 a.border2 {
 	border-radius: 0 100px 100px 0;
 	letter-spacing: .15em;
-	color:#FFC73E
+	color:#FFC73E;
 	
 
 }
