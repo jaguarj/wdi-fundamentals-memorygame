@@ -1,7 +1,7 @@
 console.log("JS file is connected to HTML! Woo!")
 
 /* This is the first updated main.js file from Josh.*/
-var cards = ["queen", "queen", "king", "king"];
+var cards = ["card1", "card1", "card2", "card2", "card3", "card3"];
 var cardsInPlay = [];
 var gameBoard = document.getElementById('game-board');
 
@@ -50,12 +50,15 @@ var createBoard = function(){
 function isTwoCards(){
 	cardsInPlay.push(this.getAttribute('data-card'));
 		//console.log(this.getAttribute('data-card'));//
-		if (this.getAttribute('data-card') === 'king') {
-			this.innerHTML = "<img src='images/king.png' alt='King' />";
+		if (this.getAttribute('data-card') === 'card1') {
+			this.innerHTML = "<img src='images/card1.svg'  />";
 
+		} else if (this.getAttribute('data-card') === 'card2'){
+			this.innerHTML = "<img src='images/card2.svg' />";
 		} else {
-			this.innerHTML = "<img src='images/queen.jpg' alt='Queen'/>";
+			this.innerHTML = "<img src='images/card3.svg' />";
 		};
+		
 
 	if (cardsInPlay.length === 2) {
 		isMatch(cardsInPlay);

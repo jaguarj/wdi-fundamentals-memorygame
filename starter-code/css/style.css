@@ -65,22 +65,14 @@ nav a:hover {
 
 	float:left;
 	margin-top: 1em;
-	margin-left:18%;
+	margin-left:8%;
 	height: 200px;
-	width: 150px;
+	width: 155px;
     border: 5px black;
-    
 	border-radius: 10px;
 	box-shadow: 0 0 30px #666;
 	text-align: center;
-	background: radial-gradient(
-    circle,
-    #ffbf00,
-    #ffbf00 75%,
-    #4b026f 25%, 
-    #4b026f
-    );
-    background-size: 8px 8px;
+	background-image: url("../images/bg-card.svg");
 	
 }
 
@@ -160,13 +152,13 @@ a#link {
 	letter-spacing: .02em;
 	text-decoration: none;
 	color:#ff8f00;
-	transition: all .03s ease-in-out .20s;
+	transition: all;
 
 }
 
 a#link:hover {
 	color:#FFC73E;
-	transition: all .03s ease-in-out .50s;
+	transition: all ease-in-out .5s;
 
 }
 
